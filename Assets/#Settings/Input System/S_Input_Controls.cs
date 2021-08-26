@@ -41,30 +41,6 @@ public class @S_Input_Controls : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """"
-                },
-                {
-                    ""name"": ""Menu"",
-                    ""type"": ""Button"",
-                    ""id"": ""4d0cfdb1-46c2-4d8a-8397-fc1bccba75fc"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """"
-                },
-                {
-                    ""name"": ""Escape"",
-                    ""type"": ""Button"",
-                    ""id"": ""7ead5aef-252c-420b-ae7f-8d99ae1a5045"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """"
-                },
-                {
-                    ""name"": ""Mouse"",
-                    ""type"": ""Button"",
-                    ""id"": ""795cd88a-f631-4b96-884c-26ff9a543ff8"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -166,21 +142,66 @@ public class @S_Input_Controls : IInputActionCollection, IDisposable
                     ""action"": ""Look"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
-                },
+                }
+            ]
+        },
+        {
+            ""name"": ""MiscKeyMap"",
+            ""id"": ""4a1cbcec-4d3f-4fdf-87b4-a0595d9d4c61"",
+            ""actions"": [
                 {
-                    ""name"": """",
-                    ""id"": ""927493a0-357e-4276-a38c-c113217b46a9"",
-                    ""path"": ""<Keyboard>/c"",
-                    ""interactions"": """",
+                    ""name"": ""Escape"",
+                    ""type"": ""Button"",
+                    ""id"": ""970fa179-a43b-4c7e-aa43-6f92c4a92c82"",
+                    ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Menu"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
+                    ""interactions"": """"
                 },
                 {
+                    ""name"": ""C"",
+                    ""type"": ""Button"",
+                    ""id"": ""e099d8b6-5ffa-44a5-aa86-1aee97ef56fd"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Space"",
+                    ""type"": ""Button"",
+                    ""id"": ""8e4ae5bf-7ad7-43ff-b586-c1b2a923ec1b"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""LMouseClick"",
+                    ""type"": ""Button"",
+                    ""id"": ""9a39630d-305e-4d87-b6a2-c2533d3135b6"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""RMouseClick"",
+                    ""type"": ""Button"",
+                    ""id"": ""7bc16767-78fc-4a6c-8a15-9464f7c278e8"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""MouseLoc"",
+                    ""type"": ""Value"",
+                    ""id"": ""153163ab-7da7-43ba-ac85-2d4af9efa3e4"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                }
+            ],
+            ""bindings"": [
+                {
                     ""name"": """",
-                    ""id"": ""54fcfcd7-12b7-4791-8ef4-50b3468237e8"",
+                    ""id"": ""dcb84fd2-fc65-4554-bf29-8c900e4d2e88"",
                     ""path"": ""<Keyboard>/escape"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -191,39 +212,56 @@ public class @S_Input_Controls : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""c3527a59-6777-4825-8609-a3c10480351c"",
+                    ""id"": ""d826d7fb-8695-4d67-8f2c-190db4e2ec01"",
+                    ""path"": ""<Keyboard>/c"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""C"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d156bce0-30bd-45dc-bced-5d20daa907aa"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Space"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6855edaa-d43d-41b8-b682-284b5f24e859"",
                     ""path"": ""<Mouse>/leftButton"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Mouse"",
+                    ""action"": ""LMouseClick"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
-                }
-            ]
-        },
-        {
-            ""name"": ""TouchKeyMap"",
-            ""id"": ""4a1cbcec-4d3f-4fdf-87b4-a0595d9d4c61"",
-            ""actions"": [
-                {
-                    ""name"": ""New action"",
-                    ""type"": ""Button"",
-                    ""id"": ""970fa179-a43b-4c7e-aa43-6f92c4a92c82"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """"
-                }
-            ],
-            ""bindings"": [
+                },
                 {
                     ""name"": """",
-                    ""id"": ""dcb84fd2-fc65-4554-bf29-8c900e4d2e88"",
-                    ""path"": """",
+                    ""id"": ""16c5c9f8-20b0-4ebc-832e-26c17178ac32"",
+                    ""path"": ""<Mouse>/rightButton"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""New action"",
+                    ""action"": ""RMouseClick"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ae57ebdc-3631-41ff-9a8f-63d02694b3ba"",
+                    ""path"": ""<Mouse>/position"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""MouseLoc"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -237,12 +275,14 @@ public class @S_Input_Controls : IInputActionCollection, IDisposable
         m_PlayerKeyMap_Move = m_PlayerKeyMap.FindAction("Move", throwIfNotFound: true);
         m_PlayerKeyMap_Jump = m_PlayerKeyMap.FindAction("Jump", throwIfNotFound: true);
         m_PlayerKeyMap_Look = m_PlayerKeyMap.FindAction("Look", throwIfNotFound: true);
-        m_PlayerKeyMap_Menu = m_PlayerKeyMap.FindAction("Menu", throwIfNotFound: true);
-        m_PlayerKeyMap_Escape = m_PlayerKeyMap.FindAction("Escape", throwIfNotFound: true);
-        m_PlayerKeyMap_Mouse = m_PlayerKeyMap.FindAction("Mouse", throwIfNotFound: true);
-        // TouchKeyMap
-        m_TouchKeyMap = asset.FindActionMap("TouchKeyMap", throwIfNotFound: true);
-        m_TouchKeyMap_Newaction = m_TouchKeyMap.FindAction("New action", throwIfNotFound: true);
+        // MiscKeyMap
+        m_MiscKeyMap = asset.FindActionMap("MiscKeyMap", throwIfNotFound: true);
+        m_MiscKeyMap_Escape = m_MiscKeyMap.FindAction("Escape", throwIfNotFound: true);
+        m_MiscKeyMap_C = m_MiscKeyMap.FindAction("C", throwIfNotFound: true);
+        m_MiscKeyMap_Space = m_MiscKeyMap.FindAction("Space", throwIfNotFound: true);
+        m_MiscKeyMap_LMouseClick = m_MiscKeyMap.FindAction("LMouseClick", throwIfNotFound: true);
+        m_MiscKeyMap_RMouseClick = m_MiscKeyMap.FindAction("RMouseClick", throwIfNotFound: true);
+        m_MiscKeyMap_MouseLoc = m_MiscKeyMap.FindAction("MouseLoc", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -295,9 +335,6 @@ public class @S_Input_Controls : IInputActionCollection, IDisposable
     private readonly InputAction m_PlayerKeyMap_Move;
     private readonly InputAction m_PlayerKeyMap_Jump;
     private readonly InputAction m_PlayerKeyMap_Look;
-    private readonly InputAction m_PlayerKeyMap_Menu;
-    private readonly InputAction m_PlayerKeyMap_Escape;
-    private readonly InputAction m_PlayerKeyMap_Mouse;
     public struct PlayerKeyMapActions
     {
         private @S_Input_Controls m_Wrapper;
@@ -305,9 +342,6 @@ public class @S_Input_Controls : IInputActionCollection, IDisposable
         public InputAction @Move => m_Wrapper.m_PlayerKeyMap_Move;
         public InputAction @Jump => m_Wrapper.m_PlayerKeyMap_Jump;
         public InputAction @Look => m_Wrapper.m_PlayerKeyMap_Look;
-        public InputAction @Menu => m_Wrapper.m_PlayerKeyMap_Menu;
-        public InputAction @Escape => m_Wrapper.m_PlayerKeyMap_Escape;
-        public InputAction @Mouse => m_Wrapper.m_PlayerKeyMap_Mouse;
         public InputActionMap Get() { return m_Wrapper.m_PlayerKeyMap; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -326,15 +360,6 @@ public class @S_Input_Controls : IInputActionCollection, IDisposable
                 @Look.started -= m_Wrapper.m_PlayerKeyMapActionsCallbackInterface.OnLook;
                 @Look.performed -= m_Wrapper.m_PlayerKeyMapActionsCallbackInterface.OnLook;
                 @Look.canceled -= m_Wrapper.m_PlayerKeyMapActionsCallbackInterface.OnLook;
-                @Menu.started -= m_Wrapper.m_PlayerKeyMapActionsCallbackInterface.OnMenu;
-                @Menu.performed -= m_Wrapper.m_PlayerKeyMapActionsCallbackInterface.OnMenu;
-                @Menu.canceled -= m_Wrapper.m_PlayerKeyMapActionsCallbackInterface.OnMenu;
-                @Escape.started -= m_Wrapper.m_PlayerKeyMapActionsCallbackInterface.OnEscape;
-                @Escape.performed -= m_Wrapper.m_PlayerKeyMapActionsCallbackInterface.OnEscape;
-                @Escape.canceled -= m_Wrapper.m_PlayerKeyMapActionsCallbackInterface.OnEscape;
-                @Mouse.started -= m_Wrapper.m_PlayerKeyMapActionsCallbackInterface.OnMouse;
-                @Mouse.performed -= m_Wrapper.m_PlayerKeyMapActionsCallbackInterface.OnMouse;
-                @Mouse.canceled -= m_Wrapper.m_PlayerKeyMapActionsCallbackInterface.OnMouse;
             }
             m_Wrapper.m_PlayerKeyMapActionsCallbackInterface = instance;
             if (instance != null)
@@ -348,63 +373,96 @@ public class @S_Input_Controls : IInputActionCollection, IDisposable
                 @Look.started += instance.OnLook;
                 @Look.performed += instance.OnLook;
                 @Look.canceled += instance.OnLook;
-                @Menu.started += instance.OnMenu;
-                @Menu.performed += instance.OnMenu;
-                @Menu.canceled += instance.OnMenu;
-                @Escape.started += instance.OnEscape;
-                @Escape.performed += instance.OnEscape;
-                @Escape.canceled += instance.OnEscape;
-                @Mouse.started += instance.OnMouse;
-                @Mouse.performed += instance.OnMouse;
-                @Mouse.canceled += instance.OnMouse;
             }
         }
     }
     public PlayerKeyMapActions @PlayerKeyMap => new PlayerKeyMapActions(this);
 
-    // TouchKeyMap
-    private readonly InputActionMap m_TouchKeyMap;
-    private ITouchKeyMapActions m_TouchKeyMapActionsCallbackInterface;
-    private readonly InputAction m_TouchKeyMap_Newaction;
-    public struct TouchKeyMapActions
+    // MiscKeyMap
+    private readonly InputActionMap m_MiscKeyMap;
+    private IMiscKeyMapActions m_MiscKeyMapActionsCallbackInterface;
+    private readonly InputAction m_MiscKeyMap_Escape;
+    private readonly InputAction m_MiscKeyMap_C;
+    private readonly InputAction m_MiscKeyMap_Space;
+    private readonly InputAction m_MiscKeyMap_LMouseClick;
+    private readonly InputAction m_MiscKeyMap_RMouseClick;
+    private readonly InputAction m_MiscKeyMap_MouseLoc;
+    public struct MiscKeyMapActions
     {
         private @S_Input_Controls m_Wrapper;
-        public TouchKeyMapActions(@S_Input_Controls wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Newaction => m_Wrapper.m_TouchKeyMap_Newaction;
-        public InputActionMap Get() { return m_Wrapper.m_TouchKeyMap; }
+        public MiscKeyMapActions(@S_Input_Controls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Escape => m_Wrapper.m_MiscKeyMap_Escape;
+        public InputAction @C => m_Wrapper.m_MiscKeyMap_C;
+        public InputAction @Space => m_Wrapper.m_MiscKeyMap_Space;
+        public InputAction @LMouseClick => m_Wrapper.m_MiscKeyMap_LMouseClick;
+        public InputAction @RMouseClick => m_Wrapper.m_MiscKeyMap_RMouseClick;
+        public InputAction @MouseLoc => m_Wrapper.m_MiscKeyMap_MouseLoc;
+        public InputActionMap Get() { return m_Wrapper.m_MiscKeyMap; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
         public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(TouchKeyMapActions set) { return set.Get(); }
-        public void SetCallbacks(ITouchKeyMapActions instance)
+        public static implicit operator InputActionMap(MiscKeyMapActions set) { return set.Get(); }
+        public void SetCallbacks(IMiscKeyMapActions instance)
         {
-            if (m_Wrapper.m_TouchKeyMapActionsCallbackInterface != null)
+            if (m_Wrapper.m_MiscKeyMapActionsCallbackInterface != null)
             {
-                @Newaction.started -= m_Wrapper.m_TouchKeyMapActionsCallbackInterface.OnNewaction;
-                @Newaction.performed -= m_Wrapper.m_TouchKeyMapActionsCallbackInterface.OnNewaction;
-                @Newaction.canceled -= m_Wrapper.m_TouchKeyMapActionsCallbackInterface.OnNewaction;
+                @Escape.started -= m_Wrapper.m_MiscKeyMapActionsCallbackInterface.OnEscape;
+                @Escape.performed -= m_Wrapper.m_MiscKeyMapActionsCallbackInterface.OnEscape;
+                @Escape.canceled -= m_Wrapper.m_MiscKeyMapActionsCallbackInterface.OnEscape;
+                @C.started -= m_Wrapper.m_MiscKeyMapActionsCallbackInterface.OnC;
+                @C.performed -= m_Wrapper.m_MiscKeyMapActionsCallbackInterface.OnC;
+                @C.canceled -= m_Wrapper.m_MiscKeyMapActionsCallbackInterface.OnC;
+                @Space.started -= m_Wrapper.m_MiscKeyMapActionsCallbackInterface.OnSpace;
+                @Space.performed -= m_Wrapper.m_MiscKeyMapActionsCallbackInterface.OnSpace;
+                @Space.canceled -= m_Wrapper.m_MiscKeyMapActionsCallbackInterface.OnSpace;
+                @LMouseClick.started -= m_Wrapper.m_MiscKeyMapActionsCallbackInterface.OnLMouseClick;
+                @LMouseClick.performed -= m_Wrapper.m_MiscKeyMapActionsCallbackInterface.OnLMouseClick;
+                @LMouseClick.canceled -= m_Wrapper.m_MiscKeyMapActionsCallbackInterface.OnLMouseClick;
+                @RMouseClick.started -= m_Wrapper.m_MiscKeyMapActionsCallbackInterface.OnRMouseClick;
+                @RMouseClick.performed -= m_Wrapper.m_MiscKeyMapActionsCallbackInterface.OnRMouseClick;
+                @RMouseClick.canceled -= m_Wrapper.m_MiscKeyMapActionsCallbackInterface.OnRMouseClick;
+                @MouseLoc.started -= m_Wrapper.m_MiscKeyMapActionsCallbackInterface.OnMouseLoc;
+                @MouseLoc.performed -= m_Wrapper.m_MiscKeyMapActionsCallbackInterface.OnMouseLoc;
+                @MouseLoc.canceled -= m_Wrapper.m_MiscKeyMapActionsCallbackInterface.OnMouseLoc;
             }
-            m_Wrapper.m_TouchKeyMapActionsCallbackInterface = instance;
+            m_Wrapper.m_MiscKeyMapActionsCallbackInterface = instance;
             if (instance != null)
             {
-                @Newaction.started += instance.OnNewaction;
-                @Newaction.performed += instance.OnNewaction;
-                @Newaction.canceled += instance.OnNewaction;
+                @Escape.started += instance.OnEscape;
+                @Escape.performed += instance.OnEscape;
+                @Escape.canceled += instance.OnEscape;
+                @C.started += instance.OnC;
+                @C.performed += instance.OnC;
+                @C.canceled += instance.OnC;
+                @Space.started += instance.OnSpace;
+                @Space.performed += instance.OnSpace;
+                @Space.canceled += instance.OnSpace;
+                @LMouseClick.started += instance.OnLMouseClick;
+                @LMouseClick.performed += instance.OnLMouseClick;
+                @LMouseClick.canceled += instance.OnLMouseClick;
+                @RMouseClick.started += instance.OnRMouseClick;
+                @RMouseClick.performed += instance.OnRMouseClick;
+                @RMouseClick.canceled += instance.OnRMouseClick;
+                @MouseLoc.started += instance.OnMouseLoc;
+                @MouseLoc.performed += instance.OnMouseLoc;
+                @MouseLoc.canceled += instance.OnMouseLoc;
             }
         }
     }
-    public TouchKeyMapActions @TouchKeyMap => new TouchKeyMapActions(this);
+    public MiscKeyMapActions @MiscKeyMap => new MiscKeyMapActions(this);
     public interface IPlayerKeyMapActions
     {
         void OnMove(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
         void OnLook(InputAction.CallbackContext context);
-        void OnMenu(InputAction.CallbackContext context);
-        void OnEscape(InputAction.CallbackContext context);
-        void OnMouse(InputAction.CallbackContext context);
     }
-    public interface ITouchKeyMapActions
+    public interface IMiscKeyMapActions
     {
-        void OnNewaction(InputAction.CallbackContext context);
+        void OnEscape(InputAction.CallbackContext context);
+        void OnC(InputAction.CallbackContext context);
+        void OnSpace(InputAction.CallbackContext context);
+        void OnLMouseClick(InputAction.CallbackContext context);
+        void OnRMouseClick(InputAction.CallbackContext context);
+        void OnMouseLoc(InputAction.CallbackContext context);
     }
 }

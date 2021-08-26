@@ -97,14 +97,14 @@ namespace CMF
 
 			//Hide/show demo menu;
 			//if(Input.GetKeyDown(menuKey))
-			if (S_Input.PlayerKeyMap.Menu.triggered)
+			if (S_Input.MiscKeyMap.C.triggered)
 			{
 				SetMenuEnabled(!demoMenuObject.activeSelf);
 			}
 
 			//If scene was built as a Windows executable, also hide/show demo menu when 'Escape' is pressed;
 			#if UNITY_STANDALONE_WIN
-			if (S_Input.PlayerKeyMap.Escape.triggered)
+			if (S_Input.MiscKeyMap.Escape.triggered)
 			{
 				SetMenuEnabled(!demoMenuObject.activeSelf);
 			}
@@ -112,7 +112,7 @@ namespace CMF
 
 			//If left mouse button is pressed and the menu is hidden, lock cursor;
 			//if(Input.GetMouseButtonDown(0) && !demoMenuObject.activeSelf)
-			if (S_Input.PlayerKeyMap.Mouse.triggered && !demoMenuObject.activeSelf)
+			if (S_Input.MiscKeyMap.LMouseClick.triggered && !demoMenuObject.activeSelf)
 				Cursor.lockState = CursorLockMode.Locked;
 		}
 
